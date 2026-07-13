@@ -1,0 +1,58 @@
+<section class="hero">
+  <div class="container hero-inner">
+    <img class="hero-shield" src="/assets/img/gold-shield-primary.png" alt="QuestLinq shield" width="220" height="220">
+    <h1>Find something to do <em>tonight</em></h1>
+    <p class="hero-sub">Free and ticketed event nights at Kingston's pubs, breweries, and hidden gems — trivia, murder mysteries, comedy, karaoke, and stranger quests.</p>
+    <form class="hero-search" action="/events/on/kingston/" method="get" role="search">
+      <label class="visually-hidden" for="hero-city">City</label>
+      <select id="hero-city" name="city">
+        <option value="kingston" selected>Kingston, ON</option>
+        <option value="" disabled>More cities soon</option>
+      </select>
+      <button type="submit" class="btn btn-gold">Show me events</button>
+    </form>
+    <p class="hero-links">
+      <a href="/events/on/kingston/tonight/">Tonight</a> ·
+      <a href="/events/on/kingston/this-weekend/">This weekend</a> ·
+      <a href="/events/on/kingston/free/">Free events</a>
+    </p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">On in Kingston</h2>
+    <div class="card-grid">
+{{events_preview}}
+    </div>
+    <p class="section-more"><a class="btn btn-ghost" href="/events/on/kingston/">All Kingston events →</a></p>
+  </div>
+</section>
+
+<section class="section doors">
+  <div class="container door-grid">
+    <div class="door door-venue">
+      <h2>Run a venue?</h2>
+      <p class="door-lead">Fill your dead nights.</p>
+      <p>Browse Kingston's event hosts free — trivia crews, mystery masters, comedy MCs — and pay only when you're ready to connect. One packed Tuesday pays for it many times over.</p>
+      <a class="btn btn-gold" href="/for-venues/">Find a host for your venue</a>
+    </div>
+    <div class="door door-host">
+      <h2>Host events?</h2>
+      <p class="door-lead">Get booked by venues. Never pay for leads.</p>
+      <p>Your free QuestLinq profile is your pitch: media, reviews, availability. Venues pay to reach <em>you</em> — you keep 100% of your booking fee.</p>
+      <a class="btn btn-outline" href="/become-a-host/">List yourself free</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">Host a night yourself — party in a PDF</h2>
+    <p class="section-sub">Printable host kits: everything you need to run a murder mystery, tavern night, or puzzle quest. Download, print, host.</p>
+    <div class="card-grid">
+{{packs_strip}}
+    </div>
+    <p class="section-more"><a class="btn btn-ghost" href="/packs/">Browse all host packs →</a></p>
+  </div>
+</section>

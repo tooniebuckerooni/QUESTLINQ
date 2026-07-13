@@ -1,0 +1,31 @@
+{
+  "name": "QuestLinq",
+  "tagline": "Events That Bring Us Together",
+  "domain": "https://questlinq.com",
+  "contact_email": "hello@questlinq.com",
+  "lemon_store": "https://hostlinqpayments.lemonsqueezy.com",
+  "lemon_connect_product": "TODO-create-host-connect-product",
+  "connect_price_cad": 29,
+  "venue_pro_price_cad": 59,
+  "cities": [
+    {
+      "slug": "kingston",
+      "province": "on",
+      "name": "Kingston",
+      "province_name": "Ontario",
+      "region_blurb": "Kingston, Ontario — the Limestone City. Pubs, breweries, students, tourists, and not nearly enough to do on a Tuesday. We're fixing that."
+    }
+  ],
+  "categories": {
+    "murder-mystery": "Murder Mystery",
+    "trivia": "Trivia",
+    "music-bingo": "Music Bingo",
+    "comedy": "Comedy",
+    "karaoke": "Karaoke",
+    "fantasy-tavern": "Fantasy Tavern",
+    "puzzle-escape": "Puzzle & Escape",
+    "paint-night": "Paint Night",
+    "open-mic": "Open Mic"
+  },
+  "socials": []
+}

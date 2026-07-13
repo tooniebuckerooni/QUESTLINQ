@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 260" role="img" aria-label="QuestLinq shield mark (provisional)">
+  <!-- PROVISIONAL recreation of the gold shield + glowing doorway mark.
+       Replace with vector redraw of the original render (see brand/logos/README.md). -->
+  <defs>
+    <linearGradient id="panelL" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFC64B"/>
+      <stop offset="1" stop-color="#E8740C"/>
+    </linearGradient>
+    <linearGradient id="panelR" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6B2FA0"/>
+      <stop offset="1" stop-color="#2B1B4D"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFC64B"/>
+      <stop offset="0.5" stop-color="#F5A623"/>
+      <stop offset="1" stop-color="#E8740C"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFDF5"/>
+      <stop offset="1" stop-color="#FFE9B8"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.45" r="0.6">
+      <stop offset="0" stop-color="#FFE9B8" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#FFE9B8" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="shieldClip">
+      <path d="M110 22 L186 44 V128 C186 182 152 216 110 236 C68 216 34 182 34 128 V44 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- outer rim -->
+  <path d="M110 12 L196 37 V130 C196 188 158 224 110 246 C62 224 24 188 24 130 V37 Z"
+        fill="url(#rim)"/>
+  <!-- inner dark line -->
+  <path d="M110 18 L190 41 V129 C190 184 154 219 110 240 C66 219 30 184 30 129 V41 Z"
+        fill="#161022"/>
+
+  <!-- split panels -->
+  <g clip-path="url(#shieldClip)">
+    <rect x="24" y="12" width="86" height="234" fill="url(#panelL)"/>
+    <rect x="110" y="12" width="86" height="234" fill="url(#panelR)"/>
+    <!-- panel facet lines -->
+    <path d="M34 60 L110 92 M186 60 L110 92 M34 150 L110 120 M186 150 L110 120"
+          stroke="#161022" stroke-opacity="0.25" stroke-width="3" fill="none"/>
+    <!-- doorway halo -->
+    <ellipse cx="110" cy="135" rx="62" ry="80" fill="url(#halo)"/>
+  </g>
+
+  <!-- doorway arch frame -->
+  <path d="M78 186 V120 A32 32 0 0 1 142 120 V186 Z"
+        fill="#161022" stroke="url(#rim)" stroke-width="7"/>
+  <!-- glowing door slot -->
+  <rect x="99" y="112" width="22" height="66" rx="11" fill="url(#glow)"/>
+
+  <!-- steps -->
+  <g fill="url(#rim)">
+    <rect x="86" y="186" width="48" height="9" rx="2"/>
+    <rect x="76" y="198" width="68" height="9" rx="2"/>
+    <rect x="66" y="210" width="88" height="9" rx="2"/>
+  </g>
+</svg>

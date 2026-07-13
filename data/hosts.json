@@ -1,0 +1,103 @@
+[
+  {
+    "slug": "fat-city-entertainment",
+    "sample": true,
+    "sample_note": "Real company (founders' own) — confirm copy, photos, and details before removing the sample flag.",
+    "name": "Fat City Entertainment",
+    "tagline": "Kingston's trivia & music bingo crew",
+    "city": "kingston",
+    "province": "on",
+    "service_radius_km": 60,
+    "event_types": ["trivia", "music-bingo"],
+    "bio": "The team behind some of Kingston's busiest weeknights. Fat City runs polished, high-energy trivia and music bingo shows with pro hosting, custom rounds, and a following that travels between venues.",
+    "years_experience": 8,
+    "pricing_guidance": {"from_cad": 250, "to_cad": 400, "unit": "per event"},
+    "availability": ["mon", "tue", "wed", "thu"],
+    "typical_draw": "40–80 guests",
+    "requirements": "PA system or bring-own available",
+    "testimonials": [
+      {"quote": "Our Tuesdays went from dead to booked-out tables.", "author": "Bar manager", "venue": "Downtown Kingston pub"}
+    ],
+    "verified": true
+  },
+  {
+    "slug": "mystery-mike-events",
+    "sample": true,
+    "name": "Mystery Mike Events",
+    "tagline": "Murder mystery nights that pack the room",
+    "city": "kingston",
+    "province": "on",
+    "service_radius_km": 50,
+    "event_types": ["murder-mystery", "puzzle-escape"],
+    "bio": "Mike runs 60–90 minute whodunit nights where guests play themselves — no costumes, no cringe, just clues, alibis, and a room that won't stop talking about it. Ideal for pubs, breweries, and private bookings.",
+    "years_experience": 5,
+    "pricing_guidance": {"from_cad": 300, "to_cad": 450, "unit": "per event"},
+    "availability": ["tue", "wed", "thu", "fri"],
+    "typical_draw": "30–60 guests",
+    "requirements": "6+ tables, dimmable lighting a bonus",
+    "testimonials": [
+      {"quote": "47 tickets on a Tuesday. Second seating added by 8pm.", "author": "Owner", "venue": "Brewery, Princess St"}
+    ],
+    "verified": true
+  },
+  {
+    "slug": "the-laughing-loon-comedy",
+    "sample": true,
+    "name": "The Laughing Loon Comedy",
+    "tagline": "Hosted comedy & improv nights, zero dead air",
+    "city": "kingston",
+    "province": "on",
+    "service_radius_km": 40,
+    "event_types": ["comedy", "open-mic"],
+    "bio": "A hosted comedy format that works even without a headliner: improv games, audience rounds, and a running MC who keeps the room warm. Books standalone nights or opens for live music.",
+    "years_experience": 4,
+    "pricing_guidance": {"from_cad": 200, "to_cad": 350, "unit": "per event"},
+    "availability": ["wed", "thu", "fri", "sat"],
+    "typical_draw": "25–50 guests",
+    "requirements": "Mic + small stage area",
+    "testimonials": [
+      {"quote": "The mid-week crowd actually came back the next week.", "author": "GM", "venue": "Kingston taproom"}
+    ],
+    "verified": false
+  },
+  {
+    "slug": "tavernkeepers-guild",
+    "sample": true,
+    "name": "The Tavernkeeper's Guild",
+    "tagline": "Fantasy tavern nights & quest events",
+    "city": "kingston",
+    "province": "on",
+    "service_radius_km": 80,
+    "event_types": ["fantasy-tavern", "puzzle-escape"],
+    "bio": "Turns your room into a medieval tavern for a night: personas, mini-quests, tavern games, and a Guildmaster host. No RPG knowledge needed — huge with student groups and game-store crowds.",
+    "years_experience": 3,
+    "pricing_guidance": {"from_cad": 275, "to_cad": 425, "unit": "per event"},
+    "availability": ["thu", "fri", "sat", "sun"],
+    "typical_draw": "30–70 guests",
+    "requirements": "Long tables preferred",
+    "testimonials": [
+      {"quote": "People showed up in costume. We sold out of mead-adjacent everything.", "author": "Events lead", "venue": "Kingston brewery"}
+    ],
+    "verified": false
+  },
+  {
+    "slug": "kingston-karaoke-collective",
+    "sample": true,
+    "name": "Kingston Karaoke Collective",
+    "tagline": "Karaoke & song-game nights with a real host",
+    "city": "kingston",
+    "province": "on",
+    "service_radius_km": 30,
+    "event_types": ["karaoke", "music-bingo"],
+    "bio": "Full-service karaoke with a host who runs the room — themed rounds, duet drafts, and song games between singers so the night never stalls. Own PA, lights, and library.",
+    "years_experience": 6,
+    "pricing_guidance": {"from_cad": 225, "to_cad": 375, "unit": "per event"},
+    "availability": ["fri", "sat"],
+    "typical_draw": "35–75 guests",
+    "requirements": "Power + 2m x 2m floor space",
+    "testimonials": [
+      {"quote": "Best bar spend per head of any night we run.", "author": "Owner", "venue": "Sports bar, Division St"}
+    ],
+    "verified": false
+  }
+]

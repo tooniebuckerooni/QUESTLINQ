@@ -26,7 +26,11 @@ The flywheel: packs recruit hosts and plant QR signage in venues → hosts pitch
 | [`docs/seo-strategy.md`](docs/seo-strategy.md) | "Near me" SEO architecture, schema.org plan, city-expansion playbook |
 | [`docs/host-packs-catalog.md`](docs/host-packs-catalog.md) | 11-SKU catalog with LemonSqueezy-ready listings, forecast ranking, bundles |
 | [`docs/legal/`](docs/legal/terms-and-conditions.md) | Terms & Conditions + 14-Day Hassle-Free Returns refund policy |
-| [`brand/`](brand/brand-guide.md) | Brand guide, palette, provisional SVG marks, logo drop-in folder |
+| [`docs/deploy.md`](docs/deploy.md) | Cloudflare Pages deploy guide + launch TODOs |
+| [`brand/`](brand/brand-guide.md) | Brand guide, palette, SVG marks, original logo renders |
+| [`data/`](data/) | Site config, hosts, events, packs — **edit these to change content** |
+| [`templates/`](templates/) + [`build.py`](build.py) | Page templates and the stdlib-only generator |
+| [`public/`](public/) | The generated site Cloudflare Pages serves (committed) |
 
 ## Stack
 
@@ -34,4 +38,4 @@ Plain **HTML/CSS/JS**, this **GitHub** repo, deployed via **Cloudflare Pages** (
 
 ## Status
 
-Planning pass complete — docs above are the source of truth. Next pass: build the static MVP site per [`docs/product-spec.md`](docs/product-spec.md) §6–7.
+**MVP site built.** `python3 build.py` renders `data/` + `templates/` into `public/` — deploy per [`docs/deploy.md`](docs/deploy.md). Sample Kingston listings are labeled in `data/`; LemonSqueezy product URLs are `TODO-` placeholders until the products exist (checklist in the deploy guide).
